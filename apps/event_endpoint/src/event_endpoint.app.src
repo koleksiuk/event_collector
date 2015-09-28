@@ -1,8 +1,8 @@
-{application, 'event_endpoint',
+{application, event_endpoint,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, {'event_endpoint_app', []}},
+  {mod, {event_endpoint_app, []}},
   {applications,
    [kernel,
     stdlib

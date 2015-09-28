@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module('event_endpoint_app').
+-module(event_endpoint_app).
 
 -behaviour(application).
 
@@ -16,7 +16,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    'event_endpoint_sup':start_link().
+    event_endpoint_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

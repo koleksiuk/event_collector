@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module('event_collector_sup').
+-module(event_collector_sup).
 
 -behaviour(supervisor).
 

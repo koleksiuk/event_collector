@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module('event_endpoint_sup').
+-module(event_endpoint_sup).
 
 -behaviour(supervisor).
 

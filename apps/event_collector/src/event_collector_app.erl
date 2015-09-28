@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module('event_collector_app').
+-module(event_collector_app).
 
 -behaviour(application).
 
@@ -16,7 +16,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    'event_collector_sup':start_link().
+    event_collector_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->
