@@ -1,0 +1,9 @@
+event_endpoint
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile

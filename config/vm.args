@@ -1,0 +1,6 @@
+-sname event_collector
+
+-setcookie event_collector_cookie
+
++K true
++A30
